@@ -1,46 +1,26 @@
 import Image from "next/image";
+import Link from 'next/link'
 import logo from "./LogoSvg.svg";
 
 const navbar = () => {
   return (
-    <nav className="flex justify-between items-center px-6 py-4 w-full">
-      <div className="flex-shrink-0">
+    <nav className="flex justify-between items-center px-4 py-5 w-full">
+      <div>
         <Image
           alt="Nookz"
-          className="group-7"
           src={logo}
-          width={42} // Adjust size as necessary
+          width={42}
           height={130}
           style={{
-            width: "119px",
-            height: "42px",
-            top: "24px",
-            left: "33px",
-            gap: "0px",
-            opacity: "0px",
-          }} // Adjust size as necessary
+            width: "120px",
+            height: "42px"
+          }}
         />
       </div>
-      <div
-        className="text-xl text-gray-600"
-        style={{
-          color: "rgba(242, 17, 112, 1)",
-          fontFamily: "Urbanist",
-          fontSize: "20px",
-          fontWeight: "500",
-          lineHeight: "24px",
-          textAlign: "right",
-          textUnderlinePosition: "from-font",
-          textDecorationSkipInk: "none",
-          width: "158px",
-          height: "24px",
-          top: "33px",
-          left: "1248px",
-          gap: "0px",
-          opacity: "0px",
-        }}
-      >
-        vibe@nookz.co.uk
+      <div>
+        <Link href="mailto:vibe@nookz.co.uk" className="pink text-xl">
+          vibe@nookz.co.uk
+        </Link>
       </div>
     </nav>
   );
