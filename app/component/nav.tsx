@@ -4,7 +4,7 @@ import logo from "./LogoSvg.svg";
 
 const navbar = () => {
   return (
-    <nav className="flex justify-between items-center px-4 py-5 w-full">
+    <nav className="flex justify-between items-center px-4 py-5 w-full relative z-20">
       <div>
         <Image
           alt="Nookz"

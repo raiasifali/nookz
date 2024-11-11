@@ -4,9 +4,9 @@ import calender from "@/app/component/calender.svg";
 const Contact = () => {
   return (
     <div
-      className="mx-auto flex justify-evenly items-center py-5"
+      className="mx-auto md:flex justify-center items-center md:py-5 relative z-20"
     >
-      <div className="flex items-center gap-1">
+      <div className="flex items-center justify-center md:w-1/3 py-5 md:py-0">
         <img
           className="w-16 h-16"
           alt="Group"
@@ -19,7 +19,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex items-center gap-1 cal-box">
+      <div className="flex items-center justify-center md:w-1/3 py-5 md:py-0 cal-box">
         <Image className="w-16 h-16" alt="Frame" src={calender} />
         <div className="ml-4 gray">
           WE SOURCE
@@ -28,7 +28,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-1">
+      <div className="flex items-center justify-center md:w-1/3 py-5 md:py-0">
         <img
           className="w-16 h-16"
           alt="Group"
