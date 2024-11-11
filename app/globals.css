@@ -1,29 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* In styles/globals.css */
+
 @font-face {
   font-family: "Rozha One";
   src: url("/RozhaOne-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
-/* Apply the font globally */
-body {
-  font-family: "Rozha One", sans-serif;
-}
-
 @font-face {
   font-family: "Urbanist";
   src: url("/Urbanist-VariableFont_wght.ttf") format("truetype");
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Urbanist";
+  src: url("/Urbanist-VariableFont_wght.ttf") format("truetype");
+  font-optical-sizing: auto;
+  font-weight: bold;
   font-style: normal;
 }
 
-.text-bbb {
-  color: white;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
+body {
+  font-family: "Urbanist";
 }
+
+
