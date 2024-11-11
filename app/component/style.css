@@ -1,0 +1,55 @@
+@keyframes float-up-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Moves up */
+  }
+  100% {
+    transform: translateY(0); /* Moves back down */
+  }
+}
+
+@keyframes float-down-up {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px); /* Moves down */
+  }
+  100% {
+    transform: translateY(0); /* Moves back up */
+  }
+}
+
+.float-chair {
+  animation: float-up-down 2s ease-in-out infinite;
+}
+
+.float-chair-opposite {
+  animation: float-down-up 2s ease-in-out infinite;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 0px white, -2px 2px 0px white, 2px -2px 0px white,
+    -2px -2px 0px white;
+  /* z-index: 10; */
+}
+
+/* .furnish-text { */
+/* z-index: 2; */
+/* mix-blend-mode: multiply; */
+/* } */
+
+/* .furnish-text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 991px;
+  height: 280px;
+  background-image: url("https://c.animaapp.com/GXftPX7k/img/group-1000003157.svg");
+  background-size: cover; /* Cover the entire area */
+/* background-position: center; /* Center the background image */
+/* z-index: 50; */
+/* } */
