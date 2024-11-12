@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import calender from "@/app/component/calender.svg";
 

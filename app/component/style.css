@@ -3,31 +3,27 @@
     transform: translate(-50%, -50%);
   }
   50% {
-    transform: translate(-50%, -57%); /* Moves up */
+    transform: translate(-50%, -58%);
   }
   100% {
-    transform: translate(-50%, -50%); /* Moves back down */
+    transform: translate(-50%, -50%);
   }
 }
 
 @keyframes float-down-up {
   0% {
-    transform: translateY(0);
+    transform: translate(-50%, -58%);
   }
   50% {
-    transform: translateY(10px); /* Moves down */
+    transform: translate(-50%, -50%); 
   }
   100% {
-    transform: translateY(0); /* Moves back up */
+    transform: translate(-50%, -58%);
   }
 }
 
 .float-chair {
-  animation: float-up-down 3s ease-in-out infinite;
-}
-
-.float-chair-opposite {
-  animation: float-down-up 2s ease-in-out infinite;
+  animation: float-up-down 4s infinite ease-in-out;
 }
 
 .hero-main{
@@ -40,9 +36,8 @@
   text-align: center;
   line-height: 3.5rem;
 }
-.outline {
+.outline{
   position: absolute;
-  color: white;
   top: 50%;
   transform: translateY(-50%);
   left: 0;
@@ -56,7 +51,7 @@
   -webkit-text-stroke-width: 0;
   color: rgba(242, 17, 112, 1);
 }
-.sofa {
+.sofa{
   position: absolute;
   z-index: 11;
   width: 100%;
@@ -65,7 +60,7 @@
   top: 50%;
   transform: translate(-50%, -50%);
 
-  -webkit-box-reflect: below 35px ;
+  -webkit-box-reflect: below 80px -webkit-gradient(linear, right top, right bottom, from(transparent), to(rgba(255,255,255,0.25)));
 }
 
 .pink{
@@ -76,25 +71,25 @@
   font-weight: bold;
   font-size: 1.24rem;
 }
-.cal-box {
+.cal-box{
   border-top: 1px solid rgba(0, 0, 0, 0.25);
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
 
-@media (min-width: 680px) {
+@media (min-width: 680px){
   .hero-main{
     font-size: 5rem;
     line-height: 4rem;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
   .hero-main{
     font-size: 8rem;
     line-height: 6rem;
     height: calc(100vh - 12rem);
   }
-  .cal-box {
+  .cal-box{
     border-top: 0;
     border-bottom: 0;
     border-left: 1px solid rgba(0, 0, 0, 0.25);
@@ -102,14 +97,14 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px){
   .hero-main{
     font-size: 10rem;
     line-height: 7rem;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1280px){
   .hero-main{
     font-size: 15rem;
     line-height: 10rem;
