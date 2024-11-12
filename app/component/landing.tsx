@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Navbar from "./nav";
 import Contact from "./contact";
-import sofa from "@/app/component/sofa.png";
+import sofa from "@/app/assets/sofa.png";
 import "@/app/component/style.css";
 
 const landing = () => {
@@ -14,11 +14,13 @@ const landing = () => {
       <div className="hero-main flex items-center justify-center">
         <div className="black">Furnish <br/> Your <span className="pink">Vibe.</span></div>
         <div className="outline">Furnish <br/>Your <span className="outline-none">Vibe.</span></div>
-        <Image
-          className="sofa float-chair"
-          alt="Modern chair on white background"
-          src={sofa}
-        />
+        <div className="sofa">
+          <Image
+            className="float-chair"
+            alt="Modern chair on white background"
+            src={sofa}
+          />  
+        </div> 
       </div>
 
       <Contact />

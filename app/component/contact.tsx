@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import calender from "@/app/component/calender.svg";
+import calender from "@/app/assets/calender.svg";
 
 const Contact = () => {
   return (

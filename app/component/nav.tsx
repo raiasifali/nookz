@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from 'next/link'
-import logo from "./LogoSvg.svg";
+import logo from "@/app/assets/LogoSvg.svg";
 
 const navbar = () => {
   return (
