@@ -9,7 +9,7 @@ const Contact = () => {
     >
       <div className="flex items-center justify-center md:w-1/3 py-5 md:py-0">
         <img
-          className="w-16 h-16"
+          className="md:w-16 md:h-16 w-12 h-12"
           alt="Group"
           src="https://c.animaapp.com/GXftPX7k/img/group.svg"
         />
@@ -21,7 +21,7 @@ const Contact = () => {
       </div>
 
       <div className="flex items-center justify-center md:w-1/3 py-5 md:py-0 cal-box">
-        <Image className="w-16 h-16" alt="Frame" src={calender} />
+        <Image className="md:w-16 md:h-16 w-12 h-12" alt="Frame" src={calender} />
         <div className="ml-4 gray">
           WE SOURCE
           <br />
@@ -31,7 +31,7 @@ const Contact = () => {
 
       <div className="flex items-center justify-center md:w-1/3 py-5 md:py-0">
         <img
-          className="w-16 h-16"
+          className="md:w-16 md:h-16 w-12 h-12"
           alt="Group"
           src="https://c.animaapp.com/GXftPX7k/img/group-1000003144.svg"
         />

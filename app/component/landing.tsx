@@ -12,7 +12,7 @@ const landing = () => {
       <Navbar />
 
       <div className="hero-main flex items-center justify-center">
-        <div className="black">Furnish <br/> Your <span className="pink">Vibe.</span></div>
+        <h1 className="black">Furnish <br/> Your <span className="pink">Vibe.</span></h1>
         <div className="outline">Furnish <br/>Your <span className="outline-none">Vibe.</span></div>
         <div className="sofa">
           <Image
