@@ -10,6 +10,7 @@ export default function RootLayout({ children }: LayoutProps) {
     <html lang="en">
       <head>
         <title>NOOKZ.</title>
+        <link rel="canonical" href="https://nookz.co.uk/" />
         <meta charSet="UTF-8" />
         <meta name="description" content="Find stylish, durable contract furniture suppliers for restaurants, offices, and more. Perfect solutions to suit your space and business needs across the UK." />
         <meta name="keywords" content="Contract Furniture Suppliers" />
